@@ -3,6 +3,10 @@ if [[ $1 = "-a"  ]]; then
 git commit --amend -m " $2 "
 git push --force origin master
 
+elif [[ $1 = '-u' ]];  then
+git add .
+git commit -m " $1 "
+git push upstream master
 else
 git add .
 git commit -m " $1 "
