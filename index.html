@@ -33,6 +33,9 @@
 
 <p>Run multiple common commands together with sgc</p>
 
+<h4>
+<a id="basic-usage" class="anchor" href="#basic-usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Usage</h4>
+
 <p>Use the following to add all files, commit and push it to origin</p>
 
 <pre><code>sgc "Your commit message"
@@ -57,7 +60,7 @@ git commit -m "Your commit message"
 git push upstream master
 </code></pre>
 
-<p>Use the following to amend new commit</p>
+<p>Use the following to update the commit</p>
 
 <pre><code>sgc -u "Your commit message"
 </code></pre>
@@ -87,9 +90,22 @@ git merge upstream master
 
 <p>alternative for </p>
 
-<pre><code>git fetch upstream master
-git merge upstream master
+<pre><code>git fetch origin master
+git merge origin master
 </code></pre>
+
+<h4>
+<a id="to-use-it" class="anchor" href="#to-use-it" aria-hidden="true"><span class="octicon octicon-link"></span></a>To use it</h4>
+
+<ul>
+<li>Clone the repo : <code>git clone https://github.com/varun-raj/sgc.git</code>
+</li>
+<li>Go to the folder <code>cd sgc</code>
+</li>
+<li>Add it to system path : <code>mv sgc /usr/local/bin/sgc</code>
+</li>
+<li>Now you can use it from any path</li>
+</ul>
       </section>
     </div>
 
