@@ -1,13 +1,22 @@
 ### Basic Git Commands
 
-Use `bgc "Your commit message"` to add all files, commit and push it to origin
+Use the following to add all files, commit and push it to origin
+
+`bgc "Your commit message"`
+
+alternative for 
+
 
 ```
 git add .
 git commit -m "Your commit message"
 git push origin master
 ```
-Use `bgc -u "Your commit message"` to add all files, commit and push it to upstream
+Use the following to add all files, commit and push it to upstream
+
+`bgc -u "Your commit message"`
+
+alternative for 
 
 ```
 git add .
@@ -15,21 +24,33 @@ git commit -m "Your commit message"
 git push upstream master
 ```
 
-Use `bgc -a "Your commit message"` to amend new commit (Alternative to)
+Use the following to amend new commit (Alternative to)
+
+`bgc -u "Your commit message"`
+
+alternative for 
 
 ```
 git add .
 git commit -m "Your commit message"
 git push origin master
 ```
-Use `bgc fu` to fetch and merge from upstream (Alternative to)
+Use the following to fetch and merge from upstream (Alternative to)
+
+`bgc fu`
+
+alternative for 
 
 ```
 git fetch upstream master
 git merge upstream master
 ```
 
-Use `bgc fo` to fetch and merge from origin (Alternative to)
+Use the following to fetch and merge from origin (Alternative to)
+
+`bgc fo`
+
+alternative for 
 
 ```
 git fetch upstream master
