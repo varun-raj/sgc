@@ -1,0 +1,10 @@
+#!/bin/bash
+if [[ $1 == "-a"  ]]; then
+git commit --amend -m " $2 "
+git push --force origin master
+
+else  
+git add .
+git commit -m $1
+git push origin master
+fi
