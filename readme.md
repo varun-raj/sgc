@@ -30,7 +30,7 @@ git commit -m "Your commit message"
 git push upstream master
 ```
 
-Use the following to amend new commit (Alternative to)
+Use the following to amend new commit
 
 ```
 bgc -u "Your commit message"
@@ -43,7 +43,7 @@ git add .
 git commit -m "Your commit message"
 git push origin master
 ```
-Use the following to fetch and merge from upstream (Alternative to)
+Use the following to fetch and merge from upstream
 
 ```
 bgc fu
@@ -57,7 +57,7 @@ git fetch upstream master
 git merge upstream master
 ```
 
-Use the following to fetch and merge from origin (Alternative to)
+Use the following to fetch and merge from origin
 
 ```
 bgc fo
