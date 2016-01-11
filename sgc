@@ -1,0 +1,45 @@
+#!/bin/bash
+
+if [[ $1 = 'fo' ]]; then
+
+	echo "Fetching from origin master"
+	git fetch origin master
+
+	echo "Merging origin master"
+	git merge origin master
+
+elif [[ $1 = 'fu' ]]; then
+
+	echo "Fetching from upstream master"
+	git fetch upstream master
+
+	echo "Merging upstream master"
+	git merge upstream master
+
+elif [[ $1 = "-a"  ]]; then
+
+	git commit --amend -m " $2 "
+	git push --force origin master
+
+elif [[ $1 = '-u' ]]; then
+
+	echo "Adding All Files"
+	git add .
+
+	echo "Committing"
+	git commit -m " $1 "
+
+	echo "Pushing to upstream master"
+	git push upstream master
+
+else
+	
+	echo "Adding All Files"
+	git add .
+
+	echo "Committing"
+	git commit -m " $1 "
+
+	echo "Pushing to origin master"
+	git push origin master
+fi
