@@ -2,7 +2,10 @@
 
 Use the following to add all files, commit and push it to origin
 
-`bgc "Your commit message"`
+```
+bgc "Your commit message"
+```
+
 
 alternative for 
 
@@ -14,7 +17,10 @@ git push origin master
 ```
 Use the following to add all files, commit and push it to upstream
 
-`bgc -u "Your commit message"`
+```
+bgc -u "Your commit message"
+```
+
 
 alternative for 
 
@@ -26,7 +32,9 @@ git push upstream master
 
 Use the following to amend new commit (Alternative to)
 
-`bgc -u "Your commit message"`
+```
+bgc -u "Your commit message"
+```
 
 alternative for 
 
@@ -37,7 +45,10 @@ git push origin master
 ```
 Use the following to fetch and merge from upstream (Alternative to)
 
-`bgc fu`
+```
+bgc fu
+```
+
 
 alternative for 
 
@@ -48,7 +59,9 @@ git merge upstream master
 
 Use the following to fetch and merge from origin (Alternative to)
 
-`bgc fo`
+```
+bgc fo
+```
 
 alternative for 
 
