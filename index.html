@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>bgc by varun-raj</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>bgc</h1>
+        <h2>Basic Git Comands</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/varun-raj/bgc/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/varun-raj/bgc/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/varun-raj/bgc" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h3>
+<a id="basic-git-commands" class="anchor" href="#basic-git-commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Git Commands</h3>
+
+<p>Use the following to add all files, commit and push it to origin</p>
+
+<pre><code>bgc "Your commit message"
+</code></pre>
+
+<p>alternative for </p>
+
+<pre><code>git add .
+git commit -m "Your commit message"
+git push origin master
+</code></pre>
+
+<p>Use the following to add all files, commit and push it to upstream</p>
+
+<pre><code>bgc -u "Your commit message"
+</code></pre>
+
+<p>alternative for </p>
+
+<pre><code>git add .
+git commit -m "Your commit message"
+git push upstream master
+</code></pre>
+
+<p>Use the following to amend new commit</p>
+
+<pre><code>bgc -u "Your commit message"
+</code></pre>
+
+<p>alternative for </p>
+
+<pre><code>git add .
+git commit -m "Your commit message"
+git push origin master
+</code></pre>
+
+<p>Use the following to fetch and merge from upstream</p>
+
+<pre><code>bgc fu
+</code></pre>
+
+<p>alternative for </p>
+
+<pre><code>git fetch upstream master
+git merge upstream master
+</code></pre>
+
+<p>Use the following to fetch and merge from origin</p>
+
+<pre><code>bgc fo
+</code></pre>
+
+<p>alternative for </p>
+
+<pre><code>git fetch upstream master
+git merge upstream master
+</code></pre>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
