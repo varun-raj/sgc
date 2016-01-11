@@ -57,7 +57,7 @@ alternative for
 
 ```
 git fetch upstream master
-git merge upstream master
+git merge upstream/master
 ```
 
 Use the following to fetch and merge from origin
@@ -70,7 +70,7 @@ alternative for
 
 ```
 git fetch origin master
-git merge origin master
+git merge origin/master
 ```
 
 #### To use it

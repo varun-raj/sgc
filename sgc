@@ -6,15 +6,15 @@ if [[ $1 = 'fo' ]]; then
 	git fetch origin master
 
 	echo "Merging origin master"
-	git merge origin master
+	git merge origin/master
 
 elif [[ $1 = 'fu' ]]; then
 
 	echo "Fetching from upstream master"
 	git fetch upstream master
 
-	echo "Merging upstream master"
-	git merge upstream master
+	echo "Merging upstream/master"
+	git merge upstream/master
 
 elif [[ $1 = "-a"  ]]; then
 
@@ -40,6 +40,6 @@ else
 	echo "Committing"
 	git commit -m " $1 "
 
-	echo "Pushing to origin master"
+	echo "Pushing to origin/master"
 	git push origin master
 fi
