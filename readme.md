@@ -31,7 +31,7 @@ git commit -m "Your commit message"
 git push upstream master
 ```
 
-Use the following to amend new commit
+Use the following to update the commit
 
 ```
 sgc -u "Your commit message"
@@ -67,6 +67,6 @@ sgc fo
 alternative for 
 
 ```
-git fetch upstream master
-git merge upstream master
+git fetch origin master
+git merge origin master
 ```
