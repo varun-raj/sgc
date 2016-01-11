@@ -1,6 +1,8 @@
 ### Simple Git Commands
 Run multiple common commands together with sgc
 
+#### Basic Usage
+
 Use the following to add all files, commit and push it to origin
 
 ```
@@ -70,3 +72,10 @@ alternative for
 git fetch origin master
 git merge origin master
 ```
+
+#### To use it
+
+* Clone the repo : `git clone https://github.com/varun-raj/sgc.git`
+* Go to the folder `cd sgc`
+* Add it to system path : `mv sgc /usr/local/bin/sgc`
+* Now you can use it from any path
