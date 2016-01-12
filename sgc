@@ -43,6 +43,14 @@ elif [[ $1 = '-gh' ]]; then
 	echo "Pushing to upstream master"
 	git push origin gh-pages
 
+elif [[ $1 = 'bi' ]]; then
+
+	echo "bundle install"
+	bundle install
+	echo "bower install"
+	bower install
+
+
 elif [ -n "$1" ]; then
 	
 	echo "Adding All Files"
@@ -53,6 +61,7 @@ elif [ -n "$1" ]; then
 
 	echo "Pushing to origin/master"
 	git push origin master
+
 
 else
 	echo "Invalid Argument"

@@ -87,6 +87,18 @@ git fetch origin master
 git merge origin/master
 ```
 
+
+```
+sgc bi
+```
+
+alternative for 
+
+```
+bundle install
+bower install
+```
+
 ### For Contributing
 
 * Clone the repo : `git clone https://github.com/varun-raj/sgc.git`
