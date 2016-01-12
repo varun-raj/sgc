@@ -25,6 +25,23 @@
 <p>Run multiple common commands together with sgc</p>
 
 <h4>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h4>
+
+<p>sgc comes with simple installation, run the following wget to install.</p>
+
+<h5>
+<a id="wget" class="anchor" href="#wget" aria-hidden="true"><span class="octicon octicon-link"></span></a>wget</h5>
+
+<pre><code>wget -O - https://raw.githubusercontent.com/varun-raj/sgc/master/install.sh | bash
+</code></pre>
+
+<h5>
+<a id="curl" class="anchor" href="#curl" aria-hidden="true"><span class="octicon octicon-link"></span></a>curl</h5>
+
+<pre><code>curl -s https://raw.githubusercontent.com/varun-raj/sgc/master/install.sh | bash
+</code></pre>
+
+<h4>
 <a id="basic-usage" class="anchor" href="#basic-usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Usage</h4>
 
 <p>Use the following to add all files, commit and push it to origin</p>
@@ -71,7 +88,7 @@ git push origin master
 <p>alternative for </p>
 
 <pre><code>git fetch upstream master
-git merge upstream master
+git merge upstream/master
 </code></pre>
 
 <p>Use the following to fetch and merge from origin</p>
@@ -82,20 +99,18 @@ git merge upstream master
 <p>alternative for </p>
 
 <pre><code>git fetch origin master
-git merge origin master
+git merge origin/master
 </code></pre>
 
 <h4>
-<a id="to-use-it" class="anchor" href="#to-use-it" aria-hidden="true"><span class="octicon octicon-link"></span></a>To use it</h4>
+<a id="for-contributing" class="anchor" href="#for-contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>For Contributing</h4>
 
 <ul>
 <li>Clone the repo : <code>git clone https://github.com/varun-raj/sgc.git</code>
 </li>
 <li>Go to the folder <code>cd sgc</code>
 </li>
-<li>Add it to system path : <code>mv sgc /usr/local/bin/sgc</code>
-</li>
-<li>Now you can use it from any path</li>
+<li>Hack into sgc file.</li>
 </ul>
 
       <footer class="site-footer">
