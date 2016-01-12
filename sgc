@@ -32,6 +32,17 @@ elif [[ $1 = '-u' ]]; then
 	echo "Pushing to upstream master"
 	git push upstream master
 
+elif [[ $1 = '-gh' ]]; then
+
+	echo "Adding All Files"
+	git add .
+
+	echo "Committing"
+	git commit -m " $1 "
+
+	echo "Pushing to upstream master"
+	git push origin gh-pages
+
 elif [ -n "$1" ]; then
 	
 	echo "Adding All Files"
