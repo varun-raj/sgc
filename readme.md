@@ -1,5 +1,5 @@
-# Simple Git Commands
-Run multiple common commands together with sgc
+# Smart Group Commands
+Run multiple common set of commands together with sgc
 
 ### Installation
 

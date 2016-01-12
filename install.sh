@@ -1,4 +1,3 @@
-echo "Cloning to " $HOME
 
 rm -rf $HOME/.sgc
 git clone https://github.com/varun-raj/sgc $HOME/.sgc
