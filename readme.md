@@ -1,6 +1,14 @@
 ### Simple Git Commands
 Run multiple common commands together with sgc
 
+#### Installation
+
+sgc comes with simple installation, run the following wget to install.
+
+```
+wget -O - https://raw.githubusercontent.com/varun-raj/sgc/master/install.sh | bash
+```
+
 #### Basic Usage
 
 Use the following to add all files, commit and push it to origin
@@ -77,5 +85,4 @@ git merge origin/master
 
 * Clone the repo : `git clone https://github.com/varun-raj/sgc.git`
 * Go to the folder `cd sgc`
-* Add it to system path : `mv sgc /usr/local/bin/sgc`
-* Now you can use it from any path
+* Hack into sgc file.
