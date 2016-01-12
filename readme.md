@@ -5,8 +5,14 @@ Run multiple common commands together with sgc
 
 sgc comes with simple installation, run the following wget to install.
 
+
+##### wget
 ```
 wget -O - https://raw.githubusercontent.com/varun-raj/sgc/master/install.sh | bash
+```
+##### curl
+```
+curl -s https://raw.githubusercontent.com/varun-raj/sgc/master/install.sh | bash
 ```
 
 #### Basic Usage

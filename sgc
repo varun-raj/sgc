@@ -32,7 +32,7 @@ elif [[ $1 = '-u' ]]; then
 	echo "Pushing to upstream master"
 	git push upstream master
 
-else
+elif [ -n "$1" ]; then
 	
 	echo "Adding All Files"
 	git add .
@@ -42,4 +42,7 @@ else
 
 	echo "Pushing to origin/master"
 	git push origin master
+
+else
+	echo "Invalid Argument"
 fi
