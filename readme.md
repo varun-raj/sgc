@@ -87,7 +87,7 @@ git fetch origin master
 git merge origin/master
 ```
 
-#### To use it
+#### For Contributing
 
 * Clone the repo : `git clone https://github.com/varun-raj/sgc.git`
 * Go to the folder `cd sgc`
