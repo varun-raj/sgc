@@ -1,4 +1,4 @@
-### Simple Git Commands
+# Simple Git Commands
 Run multiple common commands together with sgc
 
 #### Installation
