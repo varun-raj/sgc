@@ -1,21 +1,21 @@
 # Simple Git Commands
 Run multiple common commands together with sgc
 
-#### Installation
+### Installation
 
 sgc comes with simple installation, run the following wget to install.
 
 
-##### wget
+#### wget
 ```
 wget -O - https://raw.githubusercontent.com/varun-raj/sgc/master/install.sh | bash
 ```
-##### curl
+#### curl
 ```
 curl -s https://raw.githubusercontent.com/varun-raj/sgc/master/install.sh | bash
 ```
 
-#### Basic Usage
+### Basic Usage
 
 Use the following to add all files, commit and push it to origin
 
@@ -87,7 +87,7 @@ git fetch origin master
 git merge origin/master
 ```
 
-#### For Contributing
+### For Contributing
 
 * Clone the repo : `git clone https://github.com/varun-raj/sgc.git`
 * Go to the folder `cd sgc`
