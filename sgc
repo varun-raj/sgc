@@ -62,6 +62,9 @@ elif [ -n "$1" ]; then
 	echo "Pushing to origin/master"
 	git push origin master
 
+elif [ "$1" = "-h" ]; then
+  echo "Help"
+  exit 0
 
 else
 	echo "Invalid Argument"
