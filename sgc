@@ -79,4 +79,5 @@ elif [ -n "$1" ]; then
 
 else
 	echo "Invalid Argument"
+	echo "use -h for help commands"
 fi
