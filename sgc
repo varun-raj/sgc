@@ -50,6 +50,19 @@ elif [[ $1 = 'bi' ]]; then
 	echo "bower install"
 	bower install
 
+elif [ "$1" = "-h" ]; then
+  echo "Help"
+  echo "Usage"
+  echo "sgc 'Your commit Message' -> For commit and pushing to origin master"
+  echo "sgc [-OPTION]"
+  echo "Options"
+  echo "-u 'Your Message' -> For commit and pushing to upstream master" 
+  echo "-a 'Your Message' -> For amending commit" 
+  echo "fo -> For fetching and merging from origin master" 
+  echo "fu -> For fetching and merging from upstream master" 
+  echo "bi -> Bundle Install" 
+  echo "bi -> Bundle Install" 
+  exit 0
 
 elif [ -n "$1" ]; then
 	
@@ -62,9 +75,7 @@ elif [ -n "$1" ]; then
 	echo "Pushing to origin/master"
 	git push origin master
 
-elif [ "$1" = "-h" ]; then
-  echo "Help"
-  exit 0
+
 
 else
 	echo "Invalid Argument"
