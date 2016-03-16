@@ -2,18 +2,10 @@
 
 
 if [ "$1" = "-h" ]; then
-  echo "version 2.0"
-  echo "Help"
+  echo "Version 2.0"
   echo "Usage"
-  echo "sgc 'Your commit Message' -> For commit and pushing to origin master"
-  echo "sgc [-OPTION]"
-  echo "Options"
-  echo "-u 'Your Message' -> For commit and pushing to upstream master" 
-  echo "-a 'Your Message' -> For amending commit" 
-  echo "fo -> For fetching and merging from origin master" 
-  echo "fu -> For fetching and merging from upstream master" 
-  echo "bi -> Bundle Install" 
-  echo "bi -> Bundle Install" 
+  echo "sgc 'Your commit Message' remote-repo branch"
+
   exit 0
 
 elif [ -n "$1" -a -n "$2" -a -n "$3"  ]; then
